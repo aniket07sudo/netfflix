@@ -1,0 +1,17 @@
+
+.device-video {
+    position: absolute;
+    top: 8%;
+    left: 19%;
+    max-width: 61%;
+    max-height: 30%;
+    z-index: 0;
+}
+@media only screen and (max-width:1300px) {
+    .device-wrapper {
+        padding: 2rem;
+    }
+    .tv__img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,133 @@
+.phone__img {
+    width: 80%;
+    position: relative;
+    top: -3rem;
+    right: -1rem;
+}
+.offline {
+    display: flex;
+    position: relative;
+    padding: 2rem;
+}
+.phone-wrapper {
+    padding: 5rem 7rem 0rem 7rem;
+    display: flex;
+   
+    font-size: 1.7rem;
+    color: white;
+    background-color: black;
+    line-height: 1;
+    border-bottom: 8px solid #222;
+}
+
+.phone__notify {
+    position: absolute;
+    padding: .7rem;
+    border: 2px solid rgba(255,255,255,.25);
+    border-radius: 10px;
+    background-color: black;
+    bottom: 27%;
+    left: 10%;
+    width: 25%;
+}
+.phone__stranger--img {
+    height: 3.5rem;
+    margin-right: 1rem;
+}
+.phone__notify--title {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 3px;
+
+}
+.phone__notifyWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.downloading {
+    width: 3.3rem;
+    height: 3.3rem;
+    margin-left: 0.3rem;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+  
+}
+.download-text {
+    font-size: 1rem;
+    color: #0071eb;
+}
+.device__video {
+    position: absolute;
+    top: -28px;
+    left: 162px;
+    width: 55%;
+}
+@media only screen and (max-width:1000px) {
+    .phone-wrapper {
+        padding: 3rem 2rem;
+    }
+    .phone__img {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .phone__notify {
+        width: 50%;
+        bottom: 17%;
+        left: 25%;
+    }
+  
+   .flex-col {
+       margin-right: 19%;
+   }
+}
+@media only screen and (max-width:724px) {
+    .flex-col {
+        margin-right: 5%;
+    }
+    .phone__notifyWrapper {
+        padding: 0;
+        height: 50%;
+    }
+}
+@media only screen and (max-width:592px) {
+    .flex-col {
+        margin-right: 7%;
+    }
+    .phone__notify--title {
+        font-size: 1.1rem;
+    }
+    .phone__img {
+        width: 100%;
+    }
+    .phone__notify {
+        padding: .4rem;
+        width: 65%;
+        left: 19%;
+        bottom: 19%;
+    }
+}
+@media only screen and (max-width:500px) {
+    .flex-col {
+        margin-right: 7%;
+    }
+    .phone__stranger--img {
+        margin-right: .3rem;
+        height: 3rem;
+    }
+    .phone__notify--title {
+        font-size: .8rem;
+    }
+    .download-text {
+        font-size: .8rem;
+    }
+    .downloading {
+        width: 20%;
+    }
+    .phone__notifyWrapper {
+        height: 40%;
+    }
+}

@@ -1,0 +1,89 @@
+.accordian {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    padding: 1rem 0rem;
+    font-size: 1.7rem;
+    border-bottom: 2px solid black;
+    padding: 1rem 2rem;
+}
+.black {
+    background-color: black;
+}
+.accordian-wrapper {
+    width: 90%;
+    margin:auto;
+    display: block;
+    background-color: #303030;
+    border: none;
+    color: white;
+    height: auto;
+}
+.plus {
+    width: 2rem;
+    transition: all .1s;
+}
+.fs-17 {
+    font-size: 1.7rem;
+}
+.accordian__content {
+    /* padding: 0rem 2rem .6rem 2rem; */
+    padding: 0rem;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .25s cubic-bezier(.5,0,.1,1);
+ 
+}
+.show {
+    opacity: 1;
+    padding: 1rem 2rem;
+    max-height: 40rem;
+
+}
+.rotate {
+    transform: rotate(45deg);
+    
+}
+.accordian__button {
+    width: 100%;
+    padding: 1rem 2rem;
+    width: 60%;
+    margin:auto;
+    display: block;
+    background-color: #303030;
+    border: none;
+    color: white;
+}
+button {
+    border: 0;
+    padding: 0;
+}
+@media only screen and (max-width:1000px) {
+    .accordian {
+        padding: .8rem;
+    }
+    .accordian__title {
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width:650px) {
+    .accordian-wrapper {
+        width: 100%;
+    }
+    .plus {
+        width: 1.5rem;
+    }
+    .show {
+        padding: 0rem 1rem;
+    }
+}
+@media only screen and (max-width:450px) {
+    .accordian__title {
+        font-size: 1.2rem;
+    }
+    .plus {
+        width: 1.2rem;
+    }
+}

@@ -1,0 +1,20 @@
+.netflix__logo {
+    width: 10.5rem;
+    color: #e50914;
+}
+@media only screen and (max-width:1300px) {
+    .netflix__logo {
+        width: 8.3rem;
+        color: #e50914;
+    }
+}
+@media only screen and (max-width:900px) {
+    .netflix__logo {
+        width: 6.7rem;
+    }
+}
+@media only screen and (max-width:500px) {
+    .netflix__logo {
+        width: 5rem;
+    }
+}

@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__signin {
+    font-family: sans-serif;
+    height: 2.2rem;
+    width: 5rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    color:white;
+    font-weight: 500;
+    background-color: #e50914;
+    border:none;
+}
