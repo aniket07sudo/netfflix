@@ -14,11 +14,7 @@
     position: relative;
     margin:0 auto;
 }
-@media only screen and (max-width:1300px) {
-    /* .tv-wrapper {
-       padding: 2rem 0 0 0;
-    } */
-}
+
 .tv__content {
     width: 47%;
     line-height: 1.3;
